@@ -1,0 +1,7 @@
+{% if request.user.is_authenticated %}
+    <h1>Witaj {{ user }}</h1>
+{% else %}
+    <h1>Nie jesteś zalogowany</h1>
+{% endif %}
+
+<a href='polls'>Tutaj</a>

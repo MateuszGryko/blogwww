@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table>
+    <tr>
+        <th>ID Pytania</question></th>
+        <th>Treść Pytania</th>
+        <th>Data publikacji</th>
+    </tr>
+    <div>
+    {% for question in questions %}
+        <tr>
+            <td>{{ question.id }}</td>
+            <td><a href="{% url 'polls:question_detail' question.id %}">{{ question.question_text }}</a></tdb>
+            <td>{{ question.pub_date }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</div>
+</body>
+</html>

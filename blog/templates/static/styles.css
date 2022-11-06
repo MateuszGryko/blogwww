@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    background-color: lightblue;
+    text-align: center;
+}
+
+tr {
+    border: 10cm;
+}
