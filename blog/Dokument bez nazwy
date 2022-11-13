@@ -1,0 +1,6 @@
+1. Metoda GET pakuje podane dane w string i komponuje z nich URL, Metoda POST pakuje dane w formularz, enkoduje dane do transmisji i wysyła na serwer, po czym otrzymuje odpowiedź.
+2. Metoda PUT jest używana do wysyłania danych do serwera, aby zaktualizować/utworzyć zasób, Metoda DELETE usuwa konkretny zasób.
+3. Ataki CSRF to ataki, w których użytkownik jest zmanipulowany w wysłanie web request'a.
+4. Znacznik csrf_token generuje token, który jest porównywany z requestami.
+5. Rodzaje forma: form wygeneruje zwykły formularz, form.as_p wygeneruje jako paragrafy (<p>), form.as_table wygeneruje jako tabele (<table>) form.as_ul wygeneruje jako lista (<ul>)
+6. Metoda reverse() używa nazwy URL i w zamian daje URL
